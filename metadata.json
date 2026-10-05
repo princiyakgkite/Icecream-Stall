@@ -1,0 +1,6 @@
+{
+  "name": "Velvet & Scoop Artisan Creamery",
+  "description": "Artisanal small-batch ice cream stall, handcrafted waffle cones, seasonal sundaes, custom scoop builder, and mobile event catering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

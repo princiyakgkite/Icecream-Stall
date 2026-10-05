@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-cream-50: #fdfbf7;
+  --color-cream-100: #f7f3eb;
+  --color-cream-200: #ede5d5;
+  --color-caramel-500: #c68a4c;
+  --color-caramel-600: #ab6e33;
+  --color-berry-500: #c2415d;
+  --color-cocoa-900: #2a1f18;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+.font-serif-display {
+  font-family: "Fraunces", Georgia, serif;
+}
