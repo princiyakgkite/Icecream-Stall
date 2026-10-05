@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Calendar, Users, Sparkles, CheckCircle2, Clock, Send, ShieldCheck } from 'lucide-react';
+import cateringCartImg from '../assets/images/stall_catering_cart_1791181477235.jpg';
 
 export const CateringCartSection: React.FC = () => {
   const [guestCount, setGuestCount] = useState<number>(85);
@@ -61,7 +62,7 @@ export const CateringCartSection: React.FC = () => {
           <div className="lg:col-span-6 space-y-6">
             <div className="relative rounded-2xl overflow-hidden border border-[#E5DAC8] shadow-md aspect-[16/10] bg-[#EFE8DC]">
               <img
-                src="/src/assets/images/stall_catering_cart_1791181477235.jpg"
+                src={cateringCartImg}
                 alt="Aesthetic boutique vintage mobile ice cream cart stationed at outdoor garden celebration with striped canopy"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, Compass, Sparkles, Award } from 'lucide-react';
+import heroStallImg from '../assets/images/hero_icecream_stall_1791181409583.jpg';
 
 interface HeroProps {
   onNavigate: (sectionId: string) => void;
@@ -104,7 +105,7 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate, onQuickOrderPistachio })
                 </div>
               ) : (
                 <img
-                  src="/src/assets/images/hero_icecream_stall_1791181409583.jpg"
+                  src={heroStallImg}
                   alt="Charming artisan ice cream stall kiosk with striped awning at golden hour on cobblestone promenade"
                   referrerPolicy="no-referrer"
                   onLoad={() => setImgLoaded(true)}

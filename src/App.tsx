@@ -29,7 +29,7 @@ export default function App() {
       ],
       unitPrice: 9.25,
       quantity: 1,
-      image: '/src/assets/images/scoop_pistachio_cone_1791181432859.jpg',
+      image: FLAVORS[0].image,
     },
   ]);
 

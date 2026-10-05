@@ -1,3 +1,9 @@
+import heroStallImg from '../assets/images/hero_icecream_stall_1791181409583.jpg';
+import pistachioImg from '../assets/images/scoop_pistachio_cone_1791181432859.jpg';
+import strawberryImg from '../assets/images/scoop_strawberry_sundae_1791181449179.jpg';
+import chocolateImg from '../assets/images/scoop_chocolate_fudge_1791181464146.jpg';
+import cateringCartImg from '../assets/images/stall_catering_cart_1791181477235.jpg';
+
 export interface Flavor {
   id: string;
   name: string;
@@ -107,7 +113,7 @@ export const FLAVORS: Flavor[] = [
     color: '#899E71',
     textColor: '#ffffff',
     pricePerSingle: 5.75,
-    image: '/src/assets/images/scoop_pistachio_cone_1791181432859.jpg',
+    image: pistachioImg,
     status: 'In Scoop Cabinet',
     tastingNotes: ['Toasted nut butter', 'Buttery velvet finish', 'Delicate saline lift'],
     fatContent: '15.2% Butterfat',
@@ -125,7 +131,7 @@ export const FLAVORS: Flavor[] = [
     color: '#D46379',
     textColor: '#ffffff',
     pricePerSingle: 5.75,
-    image: '/src/assets/images/scoop_strawberry_sundae_1791181449179.jpg',
+    image: strawberryImg,
     status: 'In Scoop Cabinet',
     tastingNotes: ['Bright jammy berries', 'Subtle woody acid', 'Silky floral aroma'],
     fatContent: '14.0% Butterfat',
@@ -143,7 +149,7 @@ export const FLAVORS: Flavor[] = [
     color: '#3B231B',
     textColor: '#ffffff',
     pricePerSingle: 6.00,
-    image: '/src/assets/images/scoop_chocolate_fudge_1791181464146.jpg',
+    image: chocolateImg,
     status: 'In Scoop Cabinet',
     tastingNotes: ['Bittersweet ganache', 'Chewy cocoa crumb', 'Molasses undertones'],
     fatContent: '16.1% Butterfat',
@@ -161,7 +167,7 @@ export const FLAVORS: Flavor[] = [
     color: '#E8D4A2',
     textColor: '#2C241E',
     pricePerSingle: 5.50,
-    image: '/src/assets/images/hero_icecream_stall_1791181409583.jpg',
+    image: heroStallImg,
     status: 'Fresh Batch Churning',
     tastingNotes: ['Floral vanilla bean', 'Burnt sugar crunch', 'Rich sweet cream'],
     fatContent: '15.5% Butterfat',
@@ -179,7 +185,7 @@ export const FLAVORS: Flavor[] = [
     color: '#BA7A3A',
     textColor: '#ffffff',
     pricePerSingle: 5.75,
-    image: '/src/assets/images/scoop_pistachio_cone_1791181432859.jpg',
+    image: pistachioImg,
     status: 'In Scoop Cabinet',
     tastingNotes: ['Toasted toffee', 'Cultured cream', 'Subtle smoky salt'],
     fatContent: '15.8% Butterfat',
@@ -197,7 +203,7 @@ export const FLAVORS: Flavor[] = [
     color: '#F4DC8C',
     textColor: '#2C241E',
     pricePerSingle: 6.00,
-    image: '/src/assets/images/scoop_strawberry_sundae_1791181449179.jpg',
+    image: strawberryImg,
     status: 'In Scoop Cabinet',
     tastingNotes: ['Zesty citrus curd', 'Velvety curd swirl', 'Delicate ricotta crumb'],
     fatContent: '13.8% Butterfat',
@@ -215,7 +221,7 @@ export const FLAVORS: Flavor[] = [
     color: '#FFA834',
     textColor: '#2C241E',
     pricePerSingle: 5.50,
-    image: '/src/assets/images/hero_icecream_stall_1791181409583.jpg',
+    image: heroStallImg,
     status: 'In Scoop Cabinet',
     tastingNotes: ['Luscious tropical nectar', 'Bright tart seeds', 'Clean refreshing finish'],
     fatContent: '0% Fat',
@@ -233,7 +239,7 @@ export const FLAVORS: Flavor[] = [
     color: '#7C5844',
     textColor: '#ffffff',
     pricePerSingle: 5.75,
-    image: '/src/assets/images/scoop_chocolate_fudge_1791181464146.jpg',
+    image: chocolateImg,
     status: 'Last 2 Pints',
     tastingNotes: ['Berry chocolate notes', 'Smooth roast coffee', 'Crisp chocolate crackle'],
     fatContent: '14.9% Butterfat',
@@ -326,7 +332,7 @@ export const SIGNATURE_SUNDAES = [
     name: 'The Midnight Harbour Sundae',
     tagline: '72% Valrhona Fudge & Espresso Stracciatella, warm fudge sauce, roasted hazelnuts, and vanilla whipped cloud in a vintage glass coupe.',
     price: 9.75,
-    image: '/src/assets/images/scoop_chocolate_fudge_1791181464146.jpg',
+    image: chocolateImg,
     scoops: ['72% Valrhona Dark Cocoa', 'Cold Brew Espresso Stracciatella'],
     toppings: ['Warm Valrhona Hot Fudge', 'Toasted Bronte Pistachio Crumb', 'Hand-Whipped Mascarpone Cream'],
   },
@@ -335,7 +341,7 @@ export const SIGNATURE_SUNDAES = [
     name: 'Villa Verona Strawberry Coupe',
     tagline: 'Double scoop of Roasted Strawberry Balsamic and Tahitian Vanilla, fresh berry compote, freeze-dried raspberry dust and house waffle crisp.',
     price: 9.50,
-    image: '/src/assets/images/scoop_strawberry_sundae_1791181449179.jpg',
+    image: strawberryImg,
     scoops: ['Roasted Strawberry & Aged Balsamic', 'Tahitian Vanilla & Honeycomb'],
     toppings: ['Freeze-Dried Raspberries', 'Wildflower Honeycomb Crunch', 'House Waffle Crisp'],
   },
@@ -344,7 +350,7 @@ export const SIGNATURE_SUNDAES = [
     name: 'The Four-Scoop Stall Flight',
     tagline: 'Can’t choose? A flight of 4 mini scoops served on an artisan wooden paddle with wafer crisps and tasting note guide.',
     price: 11.50,
-    image: '/src/assets/images/scoop_pistachio_cone_1791181432859.jpg',
+    image: pistachioImg,
     scoops: ['Bronte Sicilian Pistachio', 'Roasted Strawberry', 'Salted Butter Caramel', 'Cold Brew Espresso'],
     toppings: ['Waffle Cone Chips', 'Fleur de Sel Pinches'],
   }
